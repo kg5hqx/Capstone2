@@ -9,14 +9,16 @@ This project explores several models to find the best model to forecast pharmacy
 Accurate forecasting of drug sales will enable pharmacies to manage their inventory more efficiently. If pharmacies can rely on the forecast's accuracy, they can maintain smaller inventories, reduce operating costs, and reduce waste due to medication expiration.
 
 ## Research Question
-In the Pharmacy industry, medication dispensing can be tricky. Some of the main factors that affect a prescription order are:
+In the pharmacy industry, it is essential to ensure patient safety and that the pharmacy dispenses only high-quality medications. As the pharmacy mail order utilization increases, it becomes crucial that the pharmacy can deliver medications efficiently and on time.  
+
+However, predicting medication dispensing can be tricky. Some of the main factors that affect a prescription order are:
 * Doctor's approval
 * Pharmacy benefit manager's (PBM) approval
 * Product availability
 * Product unbreakable unit of packaging
 * Risk of medication stockpiling
 
-How might we recommend to patients how much medication they should order, when, and how much it will cost?
+Due to PHI restrictions, patient personal health data is not publicly available. Using only the pharmacy sales data available in the public domain, how might we devise an accurate forecast of medication demand in the future?
 
 ## Data Sources
 For this project, I use a dataset from [Kaggle](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data) consisting of weekly pharmacy sale data collected in 6 years, from 2014 to 2019, for eight drug categories.

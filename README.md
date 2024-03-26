@@ -29,7 +29,7 @@ For this project, I explored time series for three drug categories:
 * R03 - Drugs for obstructive airway diseases
 * M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances.
 
-I performed a manual seasonal decomposition as my baseline for this project. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
+I started by using the statsmodel seasonal decomposition library as my baseline. I also performed a manual seasonal decomposition to understand the seasonal components, trends, and residuals of my dataset. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
 
 ## Results
 The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 

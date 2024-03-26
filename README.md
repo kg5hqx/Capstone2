@@ -36,6 +36,8 @@ The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Con
 
 ![Alt text](/notebook/R06-prediction-performance.png)
 
+![Alt text](/notebook/R03-prediction-performance.png)
+
 ## Next steps
 Additional work that will enhance my understanding of the models:
 * **Troubleshoot animation for the neural network models.**  Unfortunately, I encountered errors while trying to do my animation. Getting it running will improve my understanding of the train/test window generation.

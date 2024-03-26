@@ -34,11 +34,11 @@ I performed a manual seasonal decomposition as my baseline for this project. Fro
 ## Results
 The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the train/test data was confusing and prone to mistakes. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
-![Alt text](/notebook/R06-prediction-performance.png)
+![Alt text](/notebooks/R06/R06-prediction-performance.png)
 
-![Alt text](/notebook/R03-prediction-performance.png)
+![Alt text](/notebooks/R03/R03-prediction-performance.png)
 
-![Alt text](/notebook/M01AB-prediction-performance.png)
+![Alt text](/notebooks/M01AB/M01AB-prediction-performance.png)
 
 ## Next steps
 Additional work that will enhance my understanding of the models:
@@ -51,9 +51,9 @@ This project produced a valuable framework for evaluating time series models. Wi
 
 ## Outline of project
 
-- [R06 - Antihistamines for systemic use](https://github.com/kg5hqx/Capstone2/blob/master/notebook/Module-24-v3-R06.ipynb)
-- [R03 - Drugs for obstructive airway diseases](https://github.com/kg5hqx/Capstone2/blob/master/notebook/Module-24-v3-R03.ipynb)
-- [M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances](https://github.com/kg5hqx/Capstone2/blob/master/notebook/Module-24-v3-M01AB.ipynb)
+- [R06 - Antihistamines for systemic use](https://github.com/kg5hqx/Capstone2/blob/master/notebooks/R06/Module-24-v3-R06.ipynb)
+- [R03 - Drugs for obstructive airway diseases](https://github.com/kg5hqx/Capstone2/blob/master/notebooks/R03/Module-24-v3-R03.ipynb)
+- [M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances](https://github.com/kg5hqx/Capstone2/blob/master/notebooks/M01AB/Module-24-v3-M01AB.ipynb)
 
 ## Contact and Further Information
 For more information about this project, please contact Karin Huegele, kg5hqx@hugelheim.us

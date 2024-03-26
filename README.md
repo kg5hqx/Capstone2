@@ -32,7 +32,7 @@ For this project, I explored time series for three drug categories:
 I performed a manual seasonal decomposition as my baseline for this project. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
 
 ## Results
-The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the train/test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
+The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
 ![Alt text](/notebooks/R06/R06-prediction-performance.png)
 

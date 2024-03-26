@@ -29,10 +29,12 @@ For this project, I explored time series for three drug categories:
 * R03 - Drugs for obstructive airway diseases
 * M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances.
 
-I started by using the statsmodel seasonal decomposition library as my baseline. I also performed a manual seasonal decomposition to understand the seasonal components, trends, and residuals of my dataset. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
+I started by using the Statsmodel seasonal decomposition library as my baseline. I also performed a manual seasonal decomposition to understand my dataset's seasonal components, trends, and residuals. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
+
+To aid in readability, I created a Jupyter notebook for each drug category containing my analysis. I started by examining the R06 dataset. Once completed, I utilized the notebook to perform the same analysis for R03 and M01AB.
 
 ## Results
-The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
+The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, training neural networks requires a significant amount of time. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
 ![Alt text](/notebooks/R06/R06-prediction-performance.png)
 
@@ -42,6 +44,7 @@ The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Con
 
 ## Next steps
 Additional work that will enhance my understanding of the models:
+* **Finetune models.**  R03 and M01AB can benefit from more analysis and model fine-tuning for better prediction performance.
 * **Troubleshoot animation for the neural network models.**  Unfortunately, I encountered errors while trying to do my animation. Getting it running will improve my understanding of the train/test window generation.
 * **Get the XGBoost model to work.**  I tried to do XGBoost. However, I encountered errors with my train/test window setup.
 * **Improve the grid search mechanism for the Sarimax model.**  I want to enhance my grid search mechanism to make it easier to find the best Sarimax model parameters.

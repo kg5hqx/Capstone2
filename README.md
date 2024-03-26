@@ -36,7 +36,7 @@ Additional work that will enhance my understanding of the models:
 * **Improve the grid search mechanism for the Sarimax model.**  I want to enhance my grid search mechanism to make it easier to find the best Sarimax model parameters.
 * **Improve finetuning of my LSTM models.** I would like to better understand how to use the LSTM model effectively for time series analysis.
 
-My exploration of time series models resulted in a valuable framework for evaluating them. With further enhancements, I can use this tool to perform real-world analysis and build a performant prediction model for production deployment.
+This project produced a valuable framework for evaluating time series models. With further enhancements, we will be able to utilize this tool to perform real-world analysis and build a performant prediction model for production deployment.
 
 ## Outline of project
 

@@ -2,10 +2,10 @@
 
 **Karin Huegele**
 
-#### Executive summary
+## Executive summary
 This project explores several models to find the best model to forecast pharmacy medication sales.
 
-#### Rationale
+## Rationale
 Accurate forecasting of drug sales will enable pharmacies to manage their inventory more efficiently. If pharmacies can rely on the forecast's accuracy, they can maintain smaller inventories, reduce operating costs, and reduce waste due to medication expiration.
 
 #### Research Question

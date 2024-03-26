@@ -22,7 +22,7 @@ How might we recommend to patients how much medication they should order, when, 
 For this project, I use a dataset from [Kaggle](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data) consisting of weekly pharmacy sale data collected in 6 years, from 2014 to 2019, for eight drug categories.
 
 ## Methodology
-I will perform a manual seasonal decomposition as my baseline for this project. From there, I will improve performance using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
+I performed a manual seasonal decomposition as my baseline for this project. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
 
 ## Results
 The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the train/test data was confusing and prone to mistakes. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 

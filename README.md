@@ -43,7 +43,7 @@ The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Con
 ![Alt text](/notebooks/M01AB/M01AB-prediction-performance.png)
 
 ## Next steps
-Additional work that will enhance my understanding of the models:
+Additional work that should improve model performance:
 * **Finetune models.**  R03 and M01AB can benefit from more analysis and model fine-tuning for better prediction performance.
 * **Troubleshoot animation for the neural network models.**  Unfortunately, I encountered errors while trying to do my animation. Getting it running will improve my understanding of the train/test window generation.
 * **Get the XGBoost model to work.**  I tried to do XGBoost. However, I encountered errors with my train/test window setup.

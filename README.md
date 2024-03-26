@@ -25,9 +25,9 @@ For this project, I use a dataset from [Kaggle](https://www.kaggle.com/datasets/
 
 ## Methodology
 For this project, I explored time series for three drug categories:
-* M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances
+* R06 - Antihistamines for systemic use
 * R03 - Drugs for obstructive airway diseases
-* R06 - Antihistamines for systemic use.
+* M01AB - Anti-inflammatory and antirheumatic products, non-steroids, Acetic acid derivatives, and related substances.
 
 I performed a manual seasonal decomposition as my baseline for this project. From there, I explored possible performance improvement using ARMA, SARIMAX, and RNN models using Dense, Simple RNN, LSTM with one layer, and LSTM with three layers.
 

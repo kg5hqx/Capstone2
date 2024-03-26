@@ -1,4 +1,4 @@
-### Forecasting Pharmacy Medication Sales
+# Forecasting Pharmacy Medication Sales
 
 **Karin Huegele**
 

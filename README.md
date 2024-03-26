@@ -18,7 +18,7 @@ However, predicting medication dispensing can be tricky. Some of the main factor
 * Product unbreakable unit of packaging
 * Risk of medication stockpiling
 
-Due to PHI restrictions, patient personal health data is not publicly available. Using only the pharmacy sales data available in the public domain, how might we devise an accurate forecast of medication demand in the future?
+Due to the Personal Health Information (PHI) restrictions, patient personal health data is not publicly available. Using only the pharmacy sales data available in the public domain, how might we devise an accurate forecast of medication demand in the future?
 
 ## Data Sources
 For this project, I use a dataset from [Kaggle](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data) consisting of weekly pharmacy sale data collected in 6 years, from 2014 to 2019, for eight drug categories.

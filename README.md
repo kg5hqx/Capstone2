@@ -27,7 +27,7 @@ I will perform a manual seasonal decomposition as my baseline for this project. 
 ## Results
 The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Conv1D performing the best. However, neural networks require a high level of training. Also, setting up the train/test data was confusing and prone to mistakes. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
-![R06-prediction-performance]([(https://github.com/kg5hqx/Capstone2/blob/master/notebook/R06-prediction-performance.png)])
+![Alt text](/notebook/R06-prediction-performance.png)
 
 ## Next steps
 Additional work that will enhance my understanding of the models:

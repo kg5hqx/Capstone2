@@ -49,7 +49,7 @@ The neural network models have the lowest root mean squared error values (RMSE) 
 ## Next steps
 Additional work to improve model performance:
 * **Fine-tune models.**  R03 and M01AB can benefit from more analysis and model fine-tuning for better prediction performance.
-* **Enable rolling window visualization for the neural network models.**  Enabling the rolling window dataset animation will improve the interpretability of the model's performance.
+* **Enable rolling window visualization for the neural network models.**  Enabling the rolling window dataset animation will improve the interpretability of the neural network models' performance.
 * **Explore other machine learning models, such as XGBoost and transformer models.**  We may explore XGBoost and transformer models to see if we can gain better performance for time series forecasting.
 * **Improve the grid search mechanism for the Sarimax model.**  We can enhance the grid search mechanism for SARIMAX to make it easier to find the best Sarimax model parameters.
 

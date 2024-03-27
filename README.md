@@ -18,7 +18,7 @@ However, predicting medication dispensing can be tricky. Some of the main factor
 * Product unbreakable unit of packaging
 * Risk of medication stockpiling
 
-Due to the Personal Health Information (PHI) restrictions, patient personal health data is not publicly available. Using only the pharmacy sales data available in the public domain, how might we devise an accurate forecast of medication demand in the future?
+Due to the Protected Health Information (PHI) restrictions, patient personal health data is not publicly available. Using only the pharmacy sales data available in the public domain, how might we devise an accurate forecast of medication demand in the future?
 
 ## Data Sources
 For this project, I use a dataset from [Kaggle](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data) consisting of weekly pharmacy sale data collected in 6 years, from 2014 to 2019, for eight drug categories.
@@ -43,14 +43,13 @@ The neural network models have the lowest RMSE, with LSTM, stacked LSTM, and Con
 ![Alt text](/notebooks/M01AB/M01AB-prediction-performance.png)
 
 ## Next steps
-Additional work that should improve model performance:
+Additional work to improve model performance:
 * **Finetune models.**  R03 and M01AB can benefit from more analysis and model fine-tuning for better prediction performance.
-* **Troubleshoot animation for the neural network models.**  Unfortunately, I encountered errors while trying to do my animation. Getting it running will improve my understanding of the train/test window generation.
-* **Get the XGBoost model to work.**  I tried to do XGBoost. However, I encountered errors with my train/test window setup.
-* **Improve the grid search mechanism for the Sarimax model.**  I want to enhance my grid search mechanism to make it easier to find the best Sarimax model parameters.
-* **Improve finetuning of my LSTM models.** I would like to better understand how to use the LSTM model effectively for time series analysis.
+* **Troubleshoot animation for the neural network models.**  Running the rolling window dataset animation will improve the interpretability of the model's performance.
+* **Try XGBoost and transformer models.**  We may explore XGBoost and transformer models to see if we can gain better performance for time series forecasting.
+* **Improve the grid search mechanism for the Sarimax model.**  We can enhance the grid search mechanism for SARIMAX to make it easier to find the best Sarimax model parameters.
 
-This project produced a valuable framework for evaluating time series models. With further enhancements, we will be able to utilize this tool to perform real-world analysis and build a performant prediction model for production deployment.
+This project produced a valuable framework for evaluating regression models for time series forecasting. With further enhancements, we will be able to utilize this tool to perform real-world analysis and build a performant model for production deployment.
 
 ## Outline of project
 

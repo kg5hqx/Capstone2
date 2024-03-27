@@ -36,7 +36,7 @@ To aid in readability, I created a Jupyter notebook for each drug category conta
 ## Results
 Based on my analysis, neural network models performed the best in forecasting sales across all three medication categories.
 
-The neural network models have the lowest root mean squared error values (RMSE), with LSTM, stacked LSTM, and Conv1D performing the best among the neural network models. However, training neural networks requires a significant amount of time. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
+The neural network models have the lowest root mean squared error values (RMSE) and mean absolute error (MAE), with LSTM, stacked LSTM, and Conv1D performing the best among the neural network models. However, training neural networks requires a significant amount of time. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
 ![Alt text](/notebooks/R06/R06-prediction-performance.png)
 

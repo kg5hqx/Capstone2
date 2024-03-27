@@ -34,7 +34,9 @@ I started by using the Statsmodel seasonal decomposition library as my baseline.
 To aid in readability, I created a Jupyter notebook for each drug category containing my analysis. I started by examining the R06 dataset. Once completed, I utilized the notebook to perform the same analysis for R03 and M01AB.
 
 ## Results
-The neural network models have the lowest root mean squared error values (RMSE), with LSTM, stacked LSTM, and Conv1D performing the best. However, training neural networks requires a significant amount of time. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
+Based on my analysis, neural network models performed the best.
+
+The neural network models have the lowest root mean squared error values (RMSE), with LSTM, stacked LSTM, and Conv1D performing the best among the neural network models. However, training neural networks requires a significant amount of time. Also, setting up the training and test data was more complex. The SARIMAX and the stats model seasonal decomposition are the easiest to use and interpret. 
 
 ![Alt text](/notebooks/R06/R06-prediction-performance.png)
 
